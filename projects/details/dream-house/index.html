@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Dream House</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Mono:400,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+
+
+  <footer id='footer' role='contentinfo'>
+    <div class='container'>
+      <a class='logo' href='https://codepen.io/collection/XRoxGR' rel='home'>Dream House Designs</a>
+      <a class='copy' href='https://mobilemarkup.com'>Bird shape house connecting with surrounding in Mody University campus.</a>
+    </div>
+  </footer>
+
+
+<div class="m-p-g">
+	<div class="m-p-g__thumbs" data-google-image-layout data-max-height="350">
+		<img src="images/img1.jpg" data-full="images/img1.jpg" class="m-p-g__thumbs-img" />
+		<img src="images/img2.jpg" data-full="images/img2.jpg" class="m-p-g__thumbs-img" />
+		<img src="images/img3.jpg" data-full="images/img3.jpg" class="m-p-g__thumbs-img" />
+		<img src="images/img4.jpg" data-full="images/img4.jpg" class="m-p-g__thumbs-img" />
+		<img src="images/img5.jpg" data-full="images/img5.jpg" class="m-p-g__thumbs-img" />
+		<img src="images/img6.jpg" data-full="images/img6.jpg" class="m-p-g__thumbs-img" />
+		<img src="images/img7.jpg" data-full="images/img7.jpg" class="m-p-g__thumbs-img" />
+		<img src="images/img8.jpg" data-full="images/img8.jpg" class="m-p-g__thumbs-img" />
+		<img src="images/img9.jpg" data-full="images/img9.jpg" class="m-p-g__thumbs-img" />
+		<img src="images/img10.jpg" data-full="images/img10.jpg" class="m-p-g__thumbs-img" />
+		<img src="images/img11.jpg" data-full="images/img11.jpg" class="m-p-g__thumbs-img" />
+		<img src="images/img12.jpg" data-full="images/img12.jpg" class="m-p-g__thumbs-img" />
+		<img src="images/img13.jpg" data-full="images/img13.jpg" class="m-p-g__thumbs-img" />
+		<img src="images/img14.jpg" data-full="images/img14.jpg" class="m-p-g__thumbs-img" />
+		<img src="images/img15.jpg" data-full="images/img15.jpg" class="m-p-g__thumbs-img" />
+
+	</div>
+
+	<div class="m-p-g__fullscreen"></div>
+</div>
+
+<script>
+	var elem = document.querySelector('.m-p-g');
+
+	document.addEventListener('DOMContentLoaded', function() {
+		var gallery = new MaterialPhotoGallery(elem);
+	});
+</script>
+  <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/45226/material-photo-gallery.min.js'></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script type="text/javascript">
+    $(document).ready(function()
+    {
+        $('img').bind('contextmenu', function(e){
+            return false;
+        });
+    });
+  </script>
+
+
+</body>
+
+</html>
