@@ -1,8 +1,8 @@
 {
-  "title": "Freelancer",
-  "name": "startbootstrap-freelancer",
-  "version": "4.0.0-beta.2",
-  "description": "A freelancer portfolio HTML theme for Bootstrap.",
+  "title": "Anshu Portfolio",
+  "name": "anshu-portfolio",
+  "version": "1.1",
+  "description": "Anshu Bhansali Portfolio.",
   "keywords": [
     "css",
     "sass",
@@ -11,19 +11,19 @@
     "theme",
     "template"
   ],
-  "homepage": "https://startbootstrap.com/template-overviews/freelancer",
+  "homepage": "https://anshubhansali.com/",
   "bugs": {
-    "url": "https://github.com/BlackrockDigital/startbootstrap-freelancer/issues",
-    "email": "feedback@startbootstrap.com"
+    "url": "https://github.com/anshubhansali/",
+    "email": "anshu.bhansali.ab@gmail.com"
   },
   "license": "MIT",
   "author": "Start Bootstrap",
   "contributors": [
-    "David Miller (http://davidmiller.io/)"
+    "Nimesh Jain (http://www.nimeshjain.com/)"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-freelancer.git"
+    "url": "https://github.com/anshubhansali/anshubhansali.github.iot"
   },
   "dependencies": {
     "bootstrap": "^4.0.0-beta.2",

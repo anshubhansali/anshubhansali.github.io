@@ -133,3 +133,14 @@ a {
 .profile-img {
     border-radius: 50%;
 }
+
+section#portfolio {
+    padding-bottom: 2em;
+}
+
+
+.more-btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
+}
