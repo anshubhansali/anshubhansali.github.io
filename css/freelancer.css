@@ -1,7 +1,7 @@
 /*!
- * Start Bootstrap - Freelancer v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/freelancer)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/master/LICENSE)
+ * Start Bootstrap - Anshu Portfolio v1.1 (https://anshubhansali.com/)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/anshu-portfolio/blob/master/LICENSE)
  */
 body {
   font-family: 'Lato'; }
@@ -14,9 +14,7 @@ h5,
 h6 {
   font-weight: 700;
   font-family: 'Montserrat'; }
-p{
-  font-size: 18px;
-}
+
 hr.star-light,
 hr.star-dark {
   max-width: 15rem;
@@ -134,8 +132,8 @@ header.masthead {
   padding-top: calc(6rem + 72px);
   padding-bottom: 6rem; }
   header.masthead h1 {
-    font-size: 2.5rem;
-    line-height: 2rem; }
+    font-size: 3rem;
+    line-height: 3rem; }
   header.masthead h2 {
     font-size: 1.3rem;
     font-family: 'Lato'; }
@@ -145,8 +143,8 @@ header.masthead {
     padding-top: calc(6rem + 106px);
     padding-bottom: 6rem; }
     header.masthead h1 {
-      font-size: 3.5em;
-      line-height: 2rem; }
+      font-size: 4.75em;
+      line-height: 4rem; }
     header.masthead h2 {
       font-size: 1.75em; } }
 
@@ -285,27 +283,3 @@ a {
   .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
     background-color: #1a252f;
     border-color: #1a252f; }
-
-.more-btn {
-  width: 100%;
-  text-align:center;
-
-}
-
-#portfolio {
-  padding-bottom: 2rem;
-}
-
-#about {
-  margin-top: 2rem;
-}
-
-a.list-group-item.active.skills-heading {
-  background-color: #052b38;
-  border-color: #052c39;
-}
-
-p.lead.about-text {
-  text-align: justify;
-  font-size: 18px;
-}
