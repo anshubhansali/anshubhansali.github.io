@@ -9,17 +9,17 @@ body {
 body {
   background: #43cea2;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #43cea2, #185a9d);
+  background: -webkit-linear-gradient(to left, #ffffff, #ffffff);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #43cea2, #185a9d);
+  background: linear-gradient(to left, #ffffff, #ffffff);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   font-family: 'Open Sans', sans-serif;
 }
 
 .heading {
   text-align: center;
-  color: #fff;
-  font-size: 60px;
+  color: black;
+  font-size: 56px;
   font-family: 'Open Sans', sans-serif;
   padding-top: 0.5em;
 padding-bottom: 0.5em;
@@ -31,11 +31,12 @@ padding-bottom: 0.5em;
 .cardNew__item {
   /* width: 29%; */
   /* margin: 10px 20px; */
+  margin-bottom: 1em;
 }
 
 .cardNew__item-title {
   text-align: center;
-  color: #fff;
+  color: black;
   font-weight: normal;
   font-size: 20px;
   letter-spacing: 1px;
@@ -106,4 +107,21 @@ padding-bottom: 0.5em;
   bottom: 0;
   border-radius: 5px;
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 60%);
+}
+
+
+nav#mainNav {
+  background-color: black !important;
+}
+
+.project-content {
+  margin-top: 5em;
+}
+
+a.navbar-brand.js-scroll-trigger {
+  color: #ffffff;
+}
+
+a.nav-link.py-3.px-0.px-lg-3.rounded.js-scroll-trigger {
+  color: #ffffff;
 }

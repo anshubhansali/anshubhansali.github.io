@@ -108,3 +108,19 @@ padding-bottom: 0.5em;
   border-radius: 5px;
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 60%);
 }
+
+nav#mainNav {
+  background-color: black !important;
+}
+
+.project-content {
+  margin-top: 5em;
+}
+
+a.navbar-brand.js-scroll-trigger {
+  color: #ffffff;
+}
+
+a.nav-link.py-3.px-0.px-lg-3.rounded.js-scroll-trigger {
+  color: #ffffff;
+}
