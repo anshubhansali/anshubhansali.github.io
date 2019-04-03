@@ -174,5 +174,8 @@ span.caption-content.caption-content-intern {
 .class-project-tile {
   width: 100%;
   height: 350px;
+}
 
+.portfolio-item .caption .caption-content {
+  text-align: justify;
 }
